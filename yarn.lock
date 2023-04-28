@@ -3702,10 +3702,12 @@
     "@types/react" "*"
     csstype "^3.0.2"
 
-"@types/swiper@^5.4.3":
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/@types/swiper/-/swiper-5.4.3.tgz#a1420bd9737626e630bb116d711efde34f5b9e99"
-  integrity sha512-hJXpVeANf+XQXgbvmuFZdsnaSOKqOEZcaLDnHhZOJDRow+lfboatwubW+Ay9XiHobMGyEomkgpXSYRlDVn4gMQ==
+"@types/swiper@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@types/swiper/-/swiper-6.0.0.tgz#9934ecd569611b660a2a9bf200f25ce5ba4b4d63"
+  integrity sha512-QPZRgxZ+ivXXtzV43B3LxpXUIC7FE/EoKM+rtxngmgt2M7eeUYypZhyqZD8UxJtlBcUDw/ATGoVeSNpvBBrz2w==
+  dependencies:
+    swiper "*"
 
 "@types/unist@*", "@types/unist@^2.0.0", "@types/unist@^2.0.2", "@types/unist@^2.0.6":
   version "2.0.6"
@@ -13107,7 +13109,7 @@ swap-case@^2.0.2:
   dependencies:
     tslib "^2.0.3"
 
-swiper@9.2.4:
+swiper@*, swiper@9.2.4:
   version "9.2.4"
   resolved "https://registry.yarnpkg.com/swiper/-/swiper-9.2.4.tgz#2fa3cf58cef586366f674a10fa56fe6eec2026fe"
   integrity sha512-L7y3K/iiMXNYQ94FbfcJn7jex4QPnS4+voXGupTdC+UHW4XrR40QDdm4c9hXJ+Br0Il7PP0vP1W3goM9/Ly6Sg==
