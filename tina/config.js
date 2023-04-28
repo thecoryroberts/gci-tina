@@ -41,7 +41,7 @@ export default defineConfig({
         ],
         ui: {
           // This is an DEMO router. You can remove this to fit your site
-          router: ({ document }) => `/posts/${document._sys.slug}`,
+        // router: ({ document }) => `/posts/${document._sys.slug}`,
         },
       },
     ],
