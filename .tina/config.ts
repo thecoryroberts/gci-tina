@@ -9,7 +9,7 @@ export default defineConfig({
   token: "92557c945549ea31e188a0cf01a91c356e6cbaf8", // Get this from tina.io
 
   build: {
-    outputFolder: "admin",
+    outputFolder: "pages/admin",
     publicFolder: "public",
   },
   media: {
@@ -23,7 +23,7 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "content/posts",
+        path: "/posts",
         fields: [
           {
             type: "string",
